@@ -6,6 +6,10 @@
     flavor = "balanced";
 };
 
+&lt {
+    tapping-term-ms = <300>;
+};
+
 / {
     ht: hold_tap {
         compatible = "zmk,behavior-hold-tap";
