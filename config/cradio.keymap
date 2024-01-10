@@ -66,6 +66,11 @@
             key-positions = <16 17>;
             bindings = <&kp SQT>;
         };
+        combo_ctrlgui {
+            timeout-ms = <50>;
+            key-positions = <30 31>;
+            bindings = <&kp LC(LGUI)>;
+        };
     };
 
     keymap {
