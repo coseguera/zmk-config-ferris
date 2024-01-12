@@ -66,11 +66,6 @@
             key-positions = <16 17>;
             bindings = <&kp SQT>;
         };
-        combo_ctrlgui {
-            timeout-ms = <50>;
-            key-positions = <30 31>;
-            bindings = <&kp LC(LGUI)>;
-        };
     };
 
     keymap {
@@ -81,7 +76,7 @@
             bindings = <
     &kp Q        &kp W &kp E &kp R          &kp T       &kp Y       &kp U    &kp I          &kp O         &kp P
     &kp A        &kp S &kp D &kp F          &kp G       &kp H       &kp J    &kp K          &kp L         &mt LGUI SEMI
-    &ht LSHIFT Z &kp X &kp C &kp V          &kp B       &kp N       &kp M    &mt LALT COMMA &mt LCTRL DOT &ht RSHIFT SLASH
+    &ht LSHIFT Z &kp X &kp C &mt LALT V     &mt LCTRL B &kp N       &kp M    &mt LALT COMMA &mt LCTRL DOT &ht RSHIFT SLASH
                              &mt LGUI MINUS &lt 2 ENTER &lt 1 SPACE &kp BSPC
             >;
         };
